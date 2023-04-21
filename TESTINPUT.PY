@@ -131,7 +131,7 @@ if choice == "1":
     # Code to send connection request for single URL goes here
 
 elif choice == "2":
-    filename = "/home/developer/prospects.csv"
+    filename = input("Enter filepath:")
     driver = webdriver.Chrome()
     # Check if file exists
     if os.path.isfile(filename):
